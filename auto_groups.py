@@ -4,9 +4,9 @@ from telethon.errors import FloodWaitError
 import asyncio
 
 # ===== EDIT YE (API keys) =====
-api_id = 2090430  # Your number
-api_hash = '3903900bc29345a48a2e2cce06323779'  # With quotes
-phone = '+919359867394'  # Your phone
+api_id = 1234567  # Your number
+api_hash = '872gwy7y22yui28922228y699gegh21'  # With quotes
+phone = '+91XXXXXXXXXX'  # Your phone
 # ==============================
 
 description = 'Auto-created group from text file! Welcome.'  # Change if want
@@ -50,3 +50,4 @@ async def create_groups():
 
 if __name__ == '__main__':
     asyncio.run(create_groups())
+
